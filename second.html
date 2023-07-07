@@ -16,77 +16,88 @@
 <body>
 
 
+ <!-- task one here -->
 
-<form action="second.html">
+<h1> Here is our Feedback Fild </h1>
 
-
-<fieldset>
+<label for="feedback "></label>
+<textarea name="Feedback" id="deedback" cols="80" rows="20px" placeholder=" Hope you will  put your valualble Feedback here!">  </textarea>
  
-    <legend><h1> Log in page </h1></legend>
 
-<label for="email"></label>
-<input type="email" name="email" id="email" placeholder="Enter Email" required>
-<label for="password"></label>
-<input type="password" name="password" id="password" placeholder="Enter password">
-<br> <br> 
-<input type="submit" value="Log in">
+<label for="feedback"> Feedback:
+</label>
+<select name="feedback" id="feedback"> 
 
-</fieldset>
-
-<fieldset>
-  <legend><h1> creat an new page </h1></legend>
- 
-<input type="text" placeholder=" Frist Name">
-<br><br>
-<input type="text" placeholder="Last Name">
-<br><br>
-<input type="number" placeholder="Phone">
-<br>
-<br>
-<input type="email" placeholder="E-mail">
-<br>
-<br>
-<button type="button">submit</button>
-<br>
-<br>
-
- Select country:
-<select>
-
-    <option value="bangladesh"> bangladesh</option>
-    <option value=" united kingdom">united kingdom</option>
-    <option value="united arab emirats"> united arab emirats  </option>
-    <option value=" united state"> united state </option>
-</select>
-
-<br> <br> 
-
-select gender:
-<br>
-<label for="male">male</label> 
-<input type="radio" name="gender" id="male">
-
-<label for="female">female</label>
-<input type="radio" name="gender" id="female">
-
-<label for="others">others</label>
-<input type="radio" name="gender" id="others">
-
-<br>
-<br> 
-
-<textarea name="comment" id="comments" cols="30" rows="10" placeholder="Put Your Feedback Here..."></textarea>
+          <option value="Good">    good   </option>
+          <option value="not bad">  not bad  </option>
+          <option value="awsome"> awsome   </option>
+          <option value="bad">  bad   </option>
+        </select>
 
 
- 
-</fieldset>
+        <label for=" Submit"></label>
+        <input type="button" value="Submit" id="Submit" name="Submit">
+        <br> <br> 
 
 
 
 
 
+<!-- table here -->
 
-</form>
+<table>
+<header >
+<tr>
+<th>Name</th>
+<th> Passport No </th>
+<th> NID No</th>
+<th> Mark</th>
+<th> Phone</th>
+</tr>
+
+<tr>
+<td>Habib</td>
+<td> 8809</td>
+<td>0987</td>
+<td> A+</td>
+<td>Gp</td>
+</tr>
+
+<tr>
+    <td>sahid</td>
+    <td>0099</td>
+    <td>0986</td>
+    <td>B+</td>
+    <td>Airtel</td>
+</tr>
+
+<tr>
+    <td>shamim</td>
+    <td>9988</td>
+    <td>8765</td>
+    <td>C+</td>
+    <td>Banglalink</td>
+</tr>
+  
+<tr>
+    <td>Ahmed</td>
+    <td>7556</td>
+    <td>4556</td>
+    <td>A-</td>
+    <td>Robi</td>
+</tr>
+<tr> <caption> this is my list </caption></tr>
+
+<tfoot> 
+    <tr> 
+        <td colspan=" 5 "> here is all list </td>
+    </tr>
+</tfoot>
+
+</header>
+
+</table>
+
 
 
 
