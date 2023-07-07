@@ -1,0 +1,21 @@
+nav ul{
+    display: flex;
+
+ }
+
+ul li{
+list-style: none;
+
+}
+
+ul li a {
+ text-decoration: none;
+ margin-left:15px;
+ padding:5px;
+ 
+}
+
+ul li:hover{
+background-color: chartreuse;
+
+}
