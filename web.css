@@ -5,3 +5,13 @@ display: inline;
 
 
 }
+
+table{
+    border: 3px solid chartreuse;
+    
+
+}
+
+td{
+    border:3px solid blueviolet;
+}
